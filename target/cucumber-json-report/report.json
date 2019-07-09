@@ -1,0 +1,139 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Login with valid credentials",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 32196022100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on home page",
+            "match": {
+              "location": "LoginTest.user_is_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 19354583100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters username and password and click on Login button",
+            "match": {
+              "location": "LoginTest.user_enters_username_and_password_and_click_on_Login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10409900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should be logged in and verified",
+            "match": {
+              "location": "LoginTest.user_should_be_logged_in_and_verified()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Successful Checkout",
+        "description": "",
+        "id": "endtoend-scenario-for-testmeapp;successful-checkout",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16202937600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Navigate to All categories - electronic and Head phone",
+            "match": {
+              "location": "LoginTest.navigate_to_All_categories_electronic_and_Head_phone()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 712097600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Add product into shopping cart",
+            "match": {
+              "location": "LoginTest.add_product_into_shopping_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1983976000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "proceed to checkout",
+            "match": {
+              "location": "LoginTest.proceed_to_checkout()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6827565200,
+              "error_message": "java.lang.NullPointerException\r\n\tat stepdefinition.LoginTest.select_bank_and_add_credentials(LoginTest.java:107)\r\n\tat ✽.And select bank and add credentials(LindaTest.feature:15)\r\n",
+              "status": "failed"
+            },
+            "line": 15,
+            "name": "select bank and add credentials",
+            "match": {
+              "location": "LoginTest.select_bank_and_add_credentials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "redirected to the thank you page",
+            "match": {
+              "location": "LoginTest.redirected_to_the_thank_you_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@AddToCartandPaymentProcess"
+          }
+        ]
+      }
+    ],
+    "name": "EndToEnd Scenario for TestMeApp",
+    "description": "Login with Linda account and purchase product and complete payment process",
+    "id": "endtoend-scenario-for-testmeapp",
+    "keyword": "Feature",
+    "uri": "LindaTest.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@ProductScenario"
+      }
+    ]
+  }
+]

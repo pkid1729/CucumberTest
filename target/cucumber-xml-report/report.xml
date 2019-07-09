@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="77.287592">
+<testcase classname="EndToEnd Scenario for TestMeApp" name="Successful Checkout" time="77.287592">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at stepdefinition.LoginTest.select_bank_and_add_credentials(LoginTest.java:107)&#13;&#10;&#9;at ✽.And select bank and add credentials(LindaTest.feature:15)&#13;&#10;"><![CDATA[Given User is on home page..................................................passed
+When User enters username and password and click on Login button............passed
+Then User should be logged in and verified..................................passed
+Given Navigate to All categories - electronic and Head phone................passed
+And Add product into shopping cart..........................................passed
+When proceed to checkout....................................................passed
+And select bank and add credentials.........................................failed
+Then redirected to the thank you page.......................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at stepdefinition.LoginTest.select_bank_and_add_credentials(LoginTest.java:107)
+	at ✽.And select bank and add credentials(LindaTest.feature:15)
+]]></failure>
+</testcase>
+</testsuite>
