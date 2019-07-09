@@ -11,25 +11,25 @@ import cucumber.api.java.en.When;
 public class ProductCheckout {
 
 	@Given("^Add product into shopping cart$")
-	public void add_product_into_shopping_cart() throws Throwable {
+	public void add_product_into_shopping_cart() {
 	    // Write code here that turns the phrase above into concrete actions
 	   
 	}
 
 	@When("^proceed to checkout$")
-	public void proceed_to_checkout() throws Throwable {
+	public void proceed_to_checkout() {
 	    // Write code here that turns the phrase above into concrete actions
 	   
 	}
 
 	@When("^select bank and add credentials$")
-	public void select_bank_and_add_credentials() throws Throwable {
+	public void select_bank_and_add_credentials()  {
 	    // Write code here that turns the phrase above into concrete actions
 	    
 	}
 
 	@Then("^redirected to the thank you page$")
-	public void redirected_to_the_thank_you_page() throws Throwable {
+	public void redirected_to_the_thank_you_page()  {
 	    // Write code here that turns the phrase above into concrete actions
 	   
 	}
